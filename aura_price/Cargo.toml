@@ -1,0 +1,13 @@
+[package]
+name = "aura_price"
+
+version = "0.1.0"
+authors = ["Band Protocol <dev@bandprotocol.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+owasm-kit = { version = "0.1.13" }
+obi = { version = "0.0.2" }
