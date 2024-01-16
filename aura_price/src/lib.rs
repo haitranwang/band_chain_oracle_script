@@ -253,6 +253,7 @@ static SYMBOLS: phf::Map<&'static str, &'static [DataSources]> = phf_map! {
     "ZEC" => &[DataSources::BINANCE, DataSources::COINGECKO, DataSources::COINMARKETCAP, DataSources::CRYPTOCOMPARE],
     "ZIL" => &[DataSources::BINANCE, DataSources::COINGECKO, DataSources::COINMARKETCAP, DataSources::CRYPTOCOMPARE],
     "ZRX" => &[DataSources::BINANCE, DataSources::COINGECKO, DataSources::COINMARKETCAP, DataSources::CRYPTOCOMPARE, DataSources::HUOBIPRO],
+    "AURA" => &[DataSources::COINGECKO, DataSources::COINMARKETCAP],
 };
 
 /// Returns a HashMap mapping the data source id to its supported symbols
