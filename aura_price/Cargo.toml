@@ -16,7 +16,7 @@ optimize = """docker run --rm -v "$(pwd)":/code \
 """
 
 [dependencies]
-owasm-kit = { version = "0.1.13" }
+owasm-kit = { version = "0.3.1" }
 obi = { version = "0.0.2" }
 anyhow = "1.0.79"
 num = "0.4.1"
